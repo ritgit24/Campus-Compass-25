@@ -1,5 +1,7 @@
 # App Router Notes
 
+## The Vercel Deployement (Chapter 6) is not working at all. I tried a lot of ways to resolve the issue but I did not succeed. So I read ahead a bit but I will come back at it and try again tomorrow 🙃.
+
 ## Chapter 1
 
 1. `npx create-next-app@latest //appname// --use-pnpm` : Setup Next.js Application
