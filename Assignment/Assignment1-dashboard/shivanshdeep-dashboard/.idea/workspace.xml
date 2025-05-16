@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721ffe96-c7ce-4212-8017-3b97b1887a5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/customers/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/customers/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/invoices/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/invoices/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/query/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/query/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/seed/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/seed/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/nav-links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/dashboard/nav-links.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/latest-invoices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/dashboard/latest-invoices.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/revenue-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/dashboard/revenue-chart.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +92,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
