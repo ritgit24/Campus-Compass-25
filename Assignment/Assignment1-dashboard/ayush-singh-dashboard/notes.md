@@ -34,7 +34,8 @@
 3. **Another Note :** Use `bcryptjs` instead of `bcrypt`.
 4. **Another another Note :** Use `pnpm` to uninstall `bcrypt` and install `bcryptjs` because `npm` has skill issues.
 5. **Yet another Note :** Import `bcryptjs` instead of `bcrypt` in `/app/seed/route.ts`.
-6. 
+6. Use Neon for PostGres database. SupaBase does not work for some reason.
+7. Evil Rabbit goes brrr...
 
 ## Chapter 7
 
