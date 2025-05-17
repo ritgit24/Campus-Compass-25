@@ -1,7 +1,5 @@
 # App Router Notes
 
-## The Vercel Deployement (Chapter 6) is not working at all. I tried a lot of ways to resolve the issue but I did not succeed. So I read ahead a bit but I will come back at it and try again tomorrow 🙃.
-
 ## Chapter 1
 
 1. `npx create-next-app@latest //appname// --use-pnpm` : Setup Next.js Application
@@ -32,6 +30,11 @@
 ## Chapter 6
 
 1. Note to Self : Github desktop has limit of 100MB. So do not move more than that many files or you may never be able to get the project back due to lack of skill.
+2. **Note :** Update the root directory while deployement.
+3. **Another Note :** Use `bcryptjs` instead of `bcrypt`.
+4. **Another another Note :** Use `pnpm` to uninstall `bcrypt` and install `bcryptjs` because `npm` has skill issues.
+5. **Yet another Note :** Import `bcryptjs` instead of `bcrypt` in `/app/seed/route.ts`.
+6. 
 
 ## Chapter 7
 
