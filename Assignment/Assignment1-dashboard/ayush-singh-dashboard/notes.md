@@ -27,7 +27,7 @@
 1. `next/link` to replace <a> tag to allow client-side navigation.
 2. Use `'use client'` before `import { usePathname } from 'next/navigation'`
 
-## Chapter 6
+## Chapter 6 (The Nightmare)
 
 1. Note to Self : Github desktop has limit of 100MB. So do not move more than that many files or you may never be able to get the project back due to lack of skill.
 2. **Note :** Update the root directory while deployement.
@@ -39,7 +39,9 @@
 
 ## Chapter 7
 
-1. Keywords : `Database Queries` `async/wait` `Waterfall` `Parallel Data Fetching`
+1. By default, Next.js applications use **React Server Components**(they allow us to querry databasse directly from the server without an additional API layer).
+2. **Request Waterfalls** refer to a sequence of network requests that depend on the completion of previous requests.
+3. Use `Promise.all()`/`Promise.allSettled()` to initiate all promises at the same time.
 
 ## Chapter 8
 
