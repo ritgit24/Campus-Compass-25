@@ -52,3 +52,7 @@
 
 1. Routing Groups can be created by using parentheses `()` around a folder name. It won't be included in the URL path.
 2. **Suspense** is a powerful API which can create delightful user experiences by streaming entire page or parts of it.
+
+## Chapter 10
+
+1. Skipped it as **Partial Prerendering (PPR)** is an experimental feature of Node.js 14 and is available only with the **Next.js canary releases(next@canary)**, not in the stable version of Next.js.
