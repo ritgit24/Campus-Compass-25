@@ -47,3 +47,8 @@
 
 1. **Static Rendering** OP.
 2. **Dynamic Rendering** OP.
+
+## Chapter 9
+
+1. Routing Groups can be created by using parentheses `()` around a folder name. It won't be included in the URL path.
+2. **Suspense** is a powerful API which can create delightful user experiences by streaming entire page or parts of it.
