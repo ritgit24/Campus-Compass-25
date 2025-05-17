@@ -45,4 +45,5 @@
 
 ## Chapter 8
 
-1. 
+1. **Static Rendering** OP.
+2. **Dynamic Rendering** OP.
