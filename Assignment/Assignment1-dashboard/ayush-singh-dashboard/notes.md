@@ -72,4 +72,5 @@
 
 ## Chapter 13
 
-1. 
+1. `error.tsx` serves as a catch-all for unexpected errors and allows us to display a fallback UI to users.
+2. `notFound()` takes precedence over `error.tsx`
