@@ -66,4 +66,10 @@
 
 ## Chapter 12
 
+1. **Note :** `input` elements with `type="number"` actually return a string, not a number!
+2. Create dynamic route segments by using `[` and `]` to wrap a folder's name.
+3. **Note to Self :** Don't forget to wrap the `form` element of all the pages in `(`and `)` or else you might waste an hour trying debugging.
+
+## Chapter 13
+
 1. 
