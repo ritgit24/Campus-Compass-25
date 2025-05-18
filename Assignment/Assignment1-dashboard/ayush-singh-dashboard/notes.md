@@ -56,3 +56,14 @@
 ## Chapter 10
 
 1. Skipped it as **Partial Prerendering (PPR)** is an experimental feature of Node.js 14 and is available only with the **Next.js canary releases(next@canary)**, not in the stable version of Next.js.
+
+## Chapter 11
+
+1. `useSearchParams` allows access to the parameters of the current URL.
+2. `usePathname` lets us read the current URL's pathname.
+3. `useRouter` enables navigation between routes within client components programmatically.
+4. Use `Debouncing` to optimise the app.
+
+## Chapter 12
+
+1. 
