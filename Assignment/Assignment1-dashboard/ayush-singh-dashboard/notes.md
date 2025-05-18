@@ -86,3 +86,7 @@
 1. **Authentication :** Verify your identity.
 2. **Authorization :** Determine what you can access.
 3. **TODO :** Revision
+
+## Chapter 16
+
+1. `SEO` : `Search Engine Optimization`
