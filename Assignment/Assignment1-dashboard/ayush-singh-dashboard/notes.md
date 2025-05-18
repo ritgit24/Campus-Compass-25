@@ -83,4 +83,6 @@
 
 ## Chapter 15
 
-1. 
+1. **Authentication :** Verify your identity.
+2. **Authorization :** Determine what you can access.
+3. **TODO :** Revision
