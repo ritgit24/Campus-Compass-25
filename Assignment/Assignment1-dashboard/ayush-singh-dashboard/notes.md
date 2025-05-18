@@ -74,3 +74,13 @@
 
 1. `error.tsx` serves as a catch-all for unexpected errors and allows us to display a fallback UI to users.
 2. `notFound()` takes precedence over `error.tsx`
+
+## Chapter 14
+
+1. `lint` does not work for some reason for me.
+2. `required` is required for client-side validation.
+3. **TODO :** Put aria labels on all fields.
+
+## Chapter 15
+
+1. 
