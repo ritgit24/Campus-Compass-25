@@ -83,9 +83,11 @@ As we say you to document, we mean you to think and provide us the following dat
 3. ⁠explore https://nextjs.org/docs/app/guides/progressive-web-apps (try along side)
 4. ⁠learn what is, why do we need, https://storybook.js.org/docs/get-started/why-storybook you will mainly developing the components using this. (Explore its docs) https://storybook.js.org/docs/get-started/frameworks/nextjs for next js, will provide more resources soon.
 5. ⁠git workflow as discussed in the meet  https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
-6. ⁠resources for docker, aws, work distribution be released tomorrow.
+6. ⁠Resources for docker https://docker-curriculum.com (you may skip the part of aws, or try by creating a free tier account, i would recommend doing that) This guide is a bit old, but covers almost every basic concept beautiful 🙂
 
 
 
+# Todos
+1. How to integrate Tailwind with Storybook
 
 
