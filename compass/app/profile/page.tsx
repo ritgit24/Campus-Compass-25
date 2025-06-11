@@ -146,10 +146,29 @@ export default function Home() {
 {profile?.contribution ? (
   <div>
     <p>Review: {profile.contribution.review}</p>
-    <p>Rating: {profile.contribution.rating}</p>
+    <br></br>
+    
     {profile.contribution.image_url && (
       <img src={profile.contribution.image_url} alt="Contribution Spot" width={200} />
     )}
+    <br></br>
+    <div className="flex justify-center items-center gap-1">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star
+                    key={star}
+                    className={`w-6 h-6 ${
+                      star <= (profile.contribution?.rating || 0)
+                        ? 'text-yellow-400'
+                        : 'text-gray-300 dark:text-gray-500'
+                    }`}
+                    fill={star <= (profile.contribution?.rating || 0) ? 'currentColor' : 'none'}
+                  />
+                ))}
+                <span className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+                  {profile.contribution.rating}/5
+                </span>
+              </div>
+    
   </div>
 ) : (
   <p>No contributions yet.</p>
