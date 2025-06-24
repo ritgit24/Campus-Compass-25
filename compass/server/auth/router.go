@@ -1,3 +1,23 @@
 // Initialize routes related to authentication: /login, /signup, /logout
 // Use handlers defined in a separate file 
+// package auth
 package auth
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+// func SetupRoutes(r *gin.Engine) {
+// 	authGroup := r.Group("/api/auth")
+// 	{
+// 		authGroup.POST("/signup", SignupHandler)
+// 	}
+// }
+
+func SetupRoutes(r *gin.Engine) {
+	authGroup := r.Group("/api/auth")
+	{
+		authGroup.POST("/signup", SignupHandler)
+		authGroup.POST("/login", LoginHandler)
+	}
+}

@@ -12,7 +12,7 @@ const pool = new Pool({
 
 
 export async function GET(req: NextRequest, context: { params: { id: string } }) {
-  const id = '1'; // hardcoded user id
+   const id = context.params.id;  // now dynamic from URL param
 
   try {
     // Fetch user details
